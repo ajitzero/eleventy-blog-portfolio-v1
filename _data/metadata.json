@@ -1,12 +1,12 @@
 {
   "title": "Ajit Panigrahi | Fullstack (Web) Software Engineer",
-  "url": "https://ajitpanigrahi.com/",
+  "url": "https://ajitpanigrahi.com",
   "description": "A space for my thoughts, tips and insights on software engineering.",
   "feed": {
     "subtitle": "A space for my thoughts, tips and insights on software engineering.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://ajitpanigrahi.com/"
+    "id": "https://ajitpanigrahi.com"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
