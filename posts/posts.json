@@ -1,5 +1,7 @@
 {
   "tags": [
     "posts"
-  ]
+  ],
+  "layout": "post",
+  "permalink": "/blog/{{ title | slug }}/"
 }
