@@ -1,20 +1,20 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Ajit Panigrahi | Fullstack (Web) Software Engineer",
+  "url": "https://ajitpanigrahi.com/",
+  "description": "A space for my thoughts, tips and insights on software engineering.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "A space for my thoughts, tips and insights on software engineering.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://ajitpanigrahi.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://ajitpanigrahi.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Ajit Panigrahi",
+    "email": "ajitzero@gmail.com",
+    "url": "https://ajitpanigrahi.com/about/"
   }
 }
