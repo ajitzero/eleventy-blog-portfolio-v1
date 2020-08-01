@@ -20,8 +20,13 @@ body {
   margin: 0;
   font-family: var(--serif);
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color: var(--base-bg);
+  font-size: 16px;
 }
+@media (min-width:600px) { body { font-size: 18px; } }
+@media (min-width:800px) { body { font-size: 20px; } }
+@media (min-width:1000px) { body { font-size: 22px; } }
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -43,7 +48,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 main :first-child {
   margin-top: 0;
@@ -64,9 +69,10 @@ table th {
   padding-right: 1em;
 }
 
+/* Base code highlighting */
 pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-family: Menlo, Consolas, monospace;
   line-height: 1.5;
 }
 pre {
