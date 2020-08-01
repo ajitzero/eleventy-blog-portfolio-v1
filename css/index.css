@@ -242,3 +242,9 @@ a[href].direct-link:focus:visited,
   text-align: center;
   clear: both;
 }
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
