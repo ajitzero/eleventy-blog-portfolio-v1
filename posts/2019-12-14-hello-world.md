@@ -2,8 +2,7 @@
 title: Hello World
 description: A note on beginning
 date: 2019-12-14
-tags:
-  - design
+tags: design
 ---
 
 As I set out to design my website, I ended up spending most of my time exploring countless beautifully designed websites for inspiration. With how creative people can get, it was quite easy to forget the original reason why I wanted a website in the first place.

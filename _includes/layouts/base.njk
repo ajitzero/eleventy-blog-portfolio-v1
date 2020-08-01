@@ -29,17 +29,6 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
   <body>
-    <header>
-      <a class="home" href="{{ '/' | url }}">{{ metadata.author.name }}</a>
-
-      {% include "navigation.njk" %}
-    </header>
-
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      {{ content | safe }}
-    </main>
-
-    <footer></footer>
-
+    {{ content | safe }}
   </body>
 </html>

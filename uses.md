@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Uses
 description: A listicle of things and apps that I use
 eleventyNavigation:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Work
 description: My work experience and selected projects
 eleventyNavigation:

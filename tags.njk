@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: /tags/{{ tag }}/
 pagination:
   data: collections
   size: 1
@@ -10,13 +12,9 @@ pagination:
     - posts
     - tagList
   addAllPagesToCollections: true
-layout: layouts/home.njk
 eleventyComputed:
   title: Tagged “{{ tag }}”
-permalink: /tags/{{ tag }}/
 ---
-<h1>Tagged “{{ tag }}”</h1>
-
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 

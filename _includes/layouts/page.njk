@@ -6,6 +6,13 @@ layout: base
   <a class="home" href="{{ '/' | url }}">{{ metadata.author.name }}</a>
 
   {% include "navigation.njk" %}
+
+  <div class="hero">
+    <h1>{{ title }}</h1>
+    {% if description %}
+    <h3>{{ description }}</h3>
+    {% endif %}
+  </div>
 </header>
 
 <main>

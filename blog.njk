@@ -1,11 +1,13 @@
 ---
-layout: layouts/home.njk
+layout: page
+title: Blog
+description: A list of all my writings
 eleventyNavigation:
   key: Blog
   order: 3
 ---
 
-<h1>All my posts</h1>
+<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
