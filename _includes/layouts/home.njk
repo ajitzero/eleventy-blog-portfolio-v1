@@ -2,10 +2,79 @@
 layout: base
 ---
 
-<header>
-  <a class="home" href="{{ '/' | url }}">{{ metadata.author.name }}</a>
+<header class="header-home">
+  <div class="grid-container">
+    <div class="hero-bio">
+      <strong>Fullstack (Web) Software Engineer</strong>
+      <em>with a zeal for building intuitive,</em>
+      <em>accessible products with</em>
+      <em>human-centric design</em>
+    </div>
 
-  {% include "navigation.njk" %}
+    <div class="hero-hi">
+      <strong>
+        Hey there,<br>
+        I’m Ajit Panigrahi<br>
+      </strong>
+      <p>
+        I’m a software engineer currently based in Goa, India focussing on building and designing friction-less digital products.
+      </p>
+      <p>
+        I write my thoughts, tips and insights on software engineering on my blog, and run a condensed newsletter.
+      </p>
+    </div>
+
+    <a href="{{ '/about/' | url }}" class="cta btn btn-brand w100p">
+      Get in Touch
+      {{ "/svg/arrow-right.svg" | svgContents("icon-right") | safe }}
+    </a>
+
+    <div class="hero-nav">
+      <nav>
+        {% include "navigation.njk" %}
+      </nav>
+
+      <div class="geo-line"></div>
+
+      <div class="remote-note">
+        {{ "/svg/map-pin.svg" | svgContents | safe }}
+        Remote / Goa, India
+      </div>
+
+      <ul class="social-icons">
+        <li>
+          <a
+            href="https://twitter.com/{{ metadata.author.twitter }}"
+            target="_blank"
+            title="Fastest way to reach me">
+            {{ "/svg/twitter.svg" | svgContents("social-icon") | safe }}
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://linkedin.com/in/{{ metadata.author.linkedin }}"
+            target="_blank"
+            title="Professional history">
+            {{ "/svg/linkedin.svg" | svgContents("social-icon") | safe }}
+          </a>
+        </li>
+        <li>
+          <a
+          href="https://github.com/{{ metadata.author.github }}"
+            target="_blank"
+            title="Open-source projects &amp; contributions">
+            {{ "/svg/github.svg" | svgContents("social-icon") | safe }}
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hire-dot">
+      <span class="hire-me">
+        Available for full-time hire
+      </span>
+    </div>
+  </div>
 </header>
 
 <main>
