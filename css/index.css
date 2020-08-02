@@ -65,6 +65,11 @@ table td,
 table th {
   padding-right: 1em;
 }
+blockquote {
+  border-left: 4px solid var(--lightgray);
+  margin: 0 0 1rem;
+  padding: 0 10px;
+}
 
 /* Base code highlighting */
 pre,
