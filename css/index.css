@@ -9,8 +9,9 @@
   --blue: #082840;
   --black: #000;
   --white: #fafafa;
-  --base-bg: #fbfbfb;
+  --base-bg: #f8f8f8;
   --hero-bg: #f3f3f3;
+  --social-icon-hover: hsla(0, 0%, 40%, 0.1);
   --serif: "Source Serif Pro", Georgia, serif;
   --sans-serif: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", system-ui, sans-serif;
   --font-weight-bold-serif: 600;
@@ -27,6 +28,7 @@ body {
   color: var(--darkgray);
   background-color: var(--base-bg);
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 @media (min-width:600px) { body { font-size: 18px; } }
 @media (min-width:800px) { body { font-size: 20px; } }
@@ -53,7 +55,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 3rem 1rem;
+  padding: 3rem 1.5rem;
 }
 main :first-child {
   margin-top: 0;
@@ -189,7 +191,7 @@ ul.social-icons > li > a {
   transition: all 0.3s ease-in-out;
 }
 ul.social-icons > li > a:hover {
-  background-color: var(--lightgray);
+  background-color: var(--social-icon-hover);
 }
 svg.social-icon {
   stroke: var(--brand);
@@ -293,16 +295,32 @@ a[href].direct-link:focus:visited,
   color: #aaa;
 }
 .hero {
-  display: block;
-  width: 100%;
-  padding: 4rem 0 0;
-  text-align: center;
   clear: both;
+  display: block;
+  margin: 6rem auto 0;
+  max-width: 1200px;
+  text-align: center;
+  width: 100%;
+}
+.hero .date {
+  font-family: var(--sans-serif);
+  font-size: 16px;
+}
+.hero h1 {
+  margin: 1rem 0 0;
+}
+.hero h3 {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 1rem 0;
 }
 header {
-  border-top: 4px solid var(--brand);
   background-color: var(--hero-bg);
+  background-image: url(/img/bg-texture.jpg);
+  background-size: cover;
   padding: var(--mobile-margin-top-gap) 1.5rem 3rem;
+  /* border-bottom: 2px dashed var(--lightgray); */
 }
 .btn {
   border-radius: 4px;
@@ -485,4 +503,5 @@ a.btn.btn-brand.btn {
     animation: none !important;
     transition: none !important;
   }
+  html { scroll-behavior: auto; }
 }
