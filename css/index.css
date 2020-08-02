@@ -239,7 +239,6 @@ main .postlist-link {
   font-weight: var(--font-weight-bold-serif);
 }
 
-
 /* Tags */
 .post-tag {
   display: inline-block;
@@ -339,6 +338,9 @@ a.btn.btn-brand.btn {
 .w100p {
   width: 100%;
 }
+.flex-spacer {
+  flex: 1 0 auto;
+}
 @keyframes pulse {
 	0% { opacity: 1; }
 	50% { opacity: 0.2; }
@@ -381,7 +383,6 @@ a.btn.btn-brand.btn {
   .grid-container {
     grid-template-areas: "hero-bio hero-hi" "hero-nav cta" ". hire-dot";
     grid-template-columns: 70% 30%;
-    /* grid-template-columns: 75% 25%; */
   }
   .hero-bio {
     padding-right: 20px;
@@ -427,20 +428,36 @@ a.btn.btn-brand.btn {
 }
 .hero-nav {
   grid-area: hero-nav;
+  margin-top: var(--mobile-margin-top-gap);
+}
+.top-nav {
   display: flex;
   flex-direction: column;
   gap: 12px;
   justify-content: space-between;
   align-items: center;
-  margin-top: var(--mobile-margin-top-gap);
+}
+.logo-name {
+  font-size: 28px;
+}
+.top-nav.not-home {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 @media (min-width: 960px) {
   .hero-hi {
     margin-top: 0;
   }
-  .hero-nav {
+  .top-nav {
     flex-direction: row;
     margin-top: 0;
+  }
+  .top-nav.not-home {
+    gap: 40px;
+  }
+  .logo-name {
+    font-size: 22px;
   }
 }
 @media (prefers-reduced-motion: reduce) {

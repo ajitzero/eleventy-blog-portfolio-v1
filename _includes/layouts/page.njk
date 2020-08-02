@@ -3,10 +3,11 @@ layout: base
 ---
 
 <header>
-  <a class="margin-right: 20px" href="{{ '/' | url }}">{{ metadata.author.name }}</a>
-  <nav>
-  {% include "navigation.njk" %}
-  </nav>
+  <div class="top-nav not-home">
+    <a class="logo-name" href="{{ '/' | url }}">@{{ metadata.author.twitter }}</a>
+    {% include "navigation.njk" %}
+  </div>
+
   <div class="hero">
     <h1>{{ title }}</h1>
     {% if description %}

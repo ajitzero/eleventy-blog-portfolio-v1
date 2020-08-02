@@ -29,44 +29,8 @@ layout: base
       {{ "/svg/arrow-right.svg" | svgContents("icon-right") | safe }}
     </a>
 
-    <div class="hero-nav">
-      <nav>
-        {% include "navigation.njk" %}
-      </nav>
-
-      <div class="geo-line"></div>
-
-      <div class="remote-note">
-        {{ "/svg/map-pin.svg" | svgContents | safe }}
-        Remote / Goa, India
-      </div>
-
-      <ul class="social-icons">
-        <li>
-          <a
-            href="https://twitter.com/{{ metadata.author.twitter }}"
-            target="_blank"
-            title="Fastest way to reach me">
-            {{ "/svg/twitter.svg" | svgContents("social-icon") | safe }}
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://linkedin.com/in/{{ metadata.author.linkedin }}"
-            target="_blank"
-            title="Professional history">
-            {{ "/svg/linkedin.svg" | svgContents("social-icon") | safe }}
-          </a>
-        </li>
-        <li>
-          <a
-          href="https://github.com/{{ metadata.author.github }}"
-            target="_blank"
-            title="Open-source projects &amp; contributions">
-            {{ "/svg/github.svg" | svgContents("social-icon") | safe }}
-          </a>
-        </li>
-      </ul>
+    <div class="hero-nav top-nav">
+      {% include "navigation.njk" %}
     </div>
 
     <div class="hire-dot">
