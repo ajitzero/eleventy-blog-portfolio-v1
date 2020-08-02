@@ -361,6 +361,12 @@ a.btn.btn-brand.btn {
   font-size: clamp(1.125rem, 1rem + 2vw, 44px);
   grid-area: hero-bio;
 }
+@media (max-width: 700px) {
+  .hero-bio {
+    font-size: 24px;
+    font-size: clamp(1.125rem, 1rem + 2vw, 44px); /* necessary duplicate */
+  }
+}
 .hero-bio > * {
   display: inline;
 }
