@@ -2,6 +2,7 @@
 title: Hello World
 description: A note on beginning
 date: 2019-12-14
+cover: hello-world.png
 tags: design
 ---
 
