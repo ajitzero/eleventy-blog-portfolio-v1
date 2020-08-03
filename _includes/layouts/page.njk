@@ -10,7 +10,7 @@ layout: base
 
   <div class="hero">
     {% if date %}
-    <span class="date">{{ date | readableDate }}</span>
+    <time class="date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
     {% endif %}
     <h1>{{ title }}</h1>
     {% if description %}
