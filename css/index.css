@@ -55,7 +55,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 3rem 1.5rem;
+  padding: 6rem 1.5rem;
 }
 main :first-child {
   margin-top: 0;
@@ -320,7 +320,6 @@ header {
   background-image: url(/img/bg-texture.jpg);
   background-size: cover;
   padding: var(--mobile-margin-top-gap) 1.5rem 3rem;
-  /* border-bottom: 2px dashed var(--lightgray); */
 }
 .btn {
   border-radius: 4px;
@@ -329,16 +328,19 @@ header {
   padding: 26px 0;
 }
 a.btn.btn-brand {
-  background: var(--brand);
-  color: var(--white);
-  font-size: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background: var(--brand);
+  /* https://brumm.af/shadows */
+  box-shadow: 0 2.5px 3.4px -15px rgba(0, 0, 0, 0.074), 0 5.7px 7.7px -15px rgba(0, 0, 0, 0.108), 0 9.9px 13.4px -15px rgba(0, 0, 0, 0.133), 0 15.8px 21.3px -15px rgba(0, 0, 0, 0.155), 0 24.3px 32.8px -15px rgba(0, 0, 0, 0.177), 0 38px 51.3px -15px rgba(0, 0, 0, 0.202), 0 63.1px 85.1px -15px rgba(0, 0, 0, 0.236), 0 126px 170px -15px rgba(0, 0, 0, 0.31);
+  color: var(--white);
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
   letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
   transition: all .2s ease-in-out;
+
 }
 a.btn.btn-brand svg {
   width: 20px;
@@ -349,16 +351,13 @@ a.btn.btn-brand svg {
 a.btn.btn-brand svg.icon-left { margin-right: 20px; }
 a.btn.btn-brand svg.icon-right { margin-left: 20px; }
 a.btn.btn-brand:hover {
+  box-shadow: 0 2.8px 3.8px -7px rgba(0, 0, 0, 0.077), 0 6.3px 8.6px -7px rgba(0, 0, 0, 0.111), 0 11px 15px -7px rgba(0, 0, 0, 0.137), 0 17.5px 23.8px -7px rgba(0, 0, 0, 0.16), 0 27px 36.7px -7px rgba(0, 0, 0, 0.183), 0 42.2px 57.3px -7px rgba(0, 0, 0, 0.209), 0 70.1px 95.1px -7px rgba(0, 0, 0, 0.243), 0 140px 190px -7px rgba(0, 0, 0, 0.32);
   opacity: 0.8;
+  transform: translateY(-2px);
 }
-
 a.btn.btn-brand:hover svg.icon-right{
   margin-left: 25px;
   margin-right: -5px;
-}
-
-a.btn.btn-brand.btn {
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 /* Utilities & Animations ****************************************************/
@@ -439,7 +438,6 @@ a.btn.btn-brand.btn {
   font-size: 16px;
   justify-content: center;
   padding: 30px 10px;
-  /* text-align: center; */
   width: 100%;
 }
 .hire-me::before {
