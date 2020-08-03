@@ -11,6 +11,7 @@
   --white: #fafafa;
   --base-bg: #f8f8f8;
   --hero-bg: #f3f3f3;
+  --footer-bg: #efefef;
   --social-icon-hover: hsla(0, 0%, 40%, 0.1);
   --serif: "Source Serif Pro", Georgia, serif;
   --sans-serif: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", system-ui, sans-serif;
@@ -484,6 +485,39 @@ a.btn.btn-brand:hover svg.icon-right{
   .logo-name {
     font-size: 22px;
   }
+}
+
+/* Footer ********************************************************************/
+footer {
+  background: var(--footer-bg);
+  margin: 0;
+  padding: 5rem 2rem;
+}
+footer ul {
+  column-gap: 5px;
+  display: grid;
+  font-family: var(--sans-serif);
+  font-size: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(min(120px, 100%), 1fr));
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0;
+  row-gap: 20px;
+  width: 100%;
+}
+footer ul li {
+  margin: 0;
+}
+footer ul li span {
+  display: block;
+}
+footer ul li a {
+  font-weight: bold;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  text-decoration: underline;
 }
 
 /* Accessibility *************************************************************/
