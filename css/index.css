@@ -487,16 +487,20 @@ a.btn.btn-brand.btn {
     font-size: 22px;
   }
 }
+
+/* Accessibility *************************************************************/
 .skip-to-content-link {
-  left: 50%;
   border: 2px solid #000;
+  font-family: var(--sans-serif);
+  left: 10px;
   padding: 10px 30px;
   position: absolute;
-  transform: translateY(-100%);
+  text-transform: uppercase;
+  top: -100px;
   transition: transform 0.3s;
 }
 .skip-to-content-link:focus {
-  transform: translateY(15%);
+  top: 10px
 }
 @media (prefers-reduced-motion: reduce) {
   * {
