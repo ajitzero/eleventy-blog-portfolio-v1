@@ -1,6 +1,9 @@
 {
   "title": "Ajit Panigrahi's Portfolio & Blog",
   "url": "https://ajitpanigrahi.com",
+  "theme": {
+    "color": "#000000"
+  },
   "description": "A space for my thoughts, tips and insights on software engineering.",
   "feed": {
     "subtitle": "A space for my thoughts, tips and insights on software engineering.",
