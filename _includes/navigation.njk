@@ -20,24 +20,30 @@
   <li>
     <a
       href="https://twitter.com/{{ metadata.author.twitter }}"
+      rel="noopener"
+      rel="noreferrer"
       target="_blank"
-      title="Fastest way to reach me">
+      title="Twitter: Fastest way to reach me">
       {{ "/svg/twitter.svg" | svgContents("social-icon") | safe }}
     </a>
   </li>
   <li>
     <a
       href="https://linkedin.com/in/{{ metadata.author.linkedin }}"
+      rel="noopener"
+      rel="noreferrer"
       target="_blank"
-      title="Professional history">
+      title="LinkedIn: Professional history">
       {{ "/svg/linkedin.svg" | svgContents("social-icon") | safe }}
     </a>
   </li>
   <li>
     <a
-    href="https://github.com/{{ metadata.author.github }}"
+      href="https://github.com/{{ metadata.author.github }}"
+      rel="noopener"
+      rel="noreferrer"
       target="_blank"
-      title="Open-source projects &amp; contributions">
+      title="GitHub: Open-source projects &amp; contributions">
       {{ "/svg/github.svg" | svgContents("social-icon") | safe }}
     </a>
   </li>
