@@ -7,16 +7,16 @@
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="canonical" href="{{ metadata.url + page.url | url }}" />
 
-    <meta property="og:title" content="{{ title or metadata.title }}">
-    <meta property="og:description" content="{{ description or title or metadata.description }}">
-    <meta property="og:image" content="{{ metadata.url }}{{ cover or metadata.cover }}"/>
-    <meta property="og:image:height" content="675" />
+    <meta property="og:title" content="{{ title or metadata.title }} | @ajitzero">
+    <meta property="og:description" content="{{ description or metadata.description }}">
+    <meta property="og:image" content="{{ metadata.url }}/img/cover/{{ cover or metadata.cover }}"/>
+    <meta property="og:image:height" content="600" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:type" content="article">
 
-    <meta name="twitter:title" content="{{ title or metadata.title }}">
-    <meta name="twitter:description" content="{{ desc or title or metadata.description }}">
-    <meta name="twitter:image" content="{{ cover or metadata.cover }}">
+    <meta name="twitter:title" content="{{ title or metadata.title }} | @ajitzero">
+    <meta name="twitter:description" content="{{ desc or metadata.description }}">
+    <meta name="twitter:image" content="{{ metadata.url }}/img/cover/{{ cover or metadata.cover }}">
     <meta name="twitter:creator" content="@{{ metadata.author.twitter }}">
     <meta name="twitter:site" content="@{{ metadata.author.twitter }}">
     <meta name="twitter:card" content="summary_large_image">

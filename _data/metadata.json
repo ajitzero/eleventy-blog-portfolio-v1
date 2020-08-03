@@ -5,6 +5,7 @@
     "color": "#000000"
   },
   "description": "A space for my thoughts, tips and insights on software engineering.",
+  "cover": "default-cover.png",
   "feed": {
     "subtitle": "A space for my thoughts, tips and insights on software engineering.",
     "filename": "feed.xml",
