@@ -497,6 +497,7 @@ a.btn.btn-brand:hover svg.icon-right{
   display: flex;
   flex-direction: column;
   list-style: none;
+  padding: 0;
 }
 .post-footer li.prev { text-align: right; }
 .post-footer li.next { text-align: left; }
