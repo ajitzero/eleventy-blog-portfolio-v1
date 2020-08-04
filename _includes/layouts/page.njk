@@ -20,5 +20,7 @@ layout: base
 </header>
 
 <main id="main">
+  {% if isArticle %}<article>{% endif %}
   {{ content | safe }}
+  {% if isArticle %}</article>{% endif %}
 </main>
