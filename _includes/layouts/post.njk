@@ -5,10 +5,26 @@ layout: page
 {{ content | safe }}
 </article>
 
-<hr>
-<ul>
-  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+<ul class="post-footer">
   {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+  {%- if previousPost %}<li class="prev">
+    <a href="{{ previousPost.url | url }}">
+      {{ "/svg/arrow-left.svg" | svgContents | safe }}
+      <div>
+        <span>Previous</span>
+        {{ previousPost.data.title }}
+      </div>
+    </a>
+  </li>{% endif %}
+
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {%- if nextPost %}<li class="next">
+    <a href="{{ nextPost.url | url }}">
+      <div>
+        <span>Next</span>
+        {{ nextPost.data.title }}
+      </div>
+      {{ "/svg/arrow-right.svg" | svgContents | safe }}
+    </a>
+  </li>{% endif %}
 </ul>
