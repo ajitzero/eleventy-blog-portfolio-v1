@@ -321,7 +321,7 @@ a[href].direct-link:focus:visited,
 }
 header {
   background-color: var(--hero-bg);
-  background-image: url(/img/bg-texture.jpg);
+  background-image: url(/img/bg-texture.webp);
   background-size: cover;
   padding: var(--mobile-margin-top-gap) 1.5rem 3rem;
 }
