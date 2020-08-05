@@ -1,5 +1,4 @@
 const { DateTime } = require("luxon");
-const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
@@ -81,23 +80,6 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
-  // Browsersync Overrides
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('_site/404.html');
-
-        browserSync.addMiddleware("*", (req, res) => {
-          // Provides the 404 content without redirect.
-          res.write(content_404);
-          res.end();
-        });
-      },
-    },
-    ui: false,
-    ghostMode: false
-  });
-
   return {
     templateFormats: [
       "md",
@@ -119,13 +101,5 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-
-    // These are all optional, defaults are shown:
-    dir: {
-      input: ".",
-      includes: "_includes",
-      data: "_data",
-      output: "_site"
-    }
   };
 };
