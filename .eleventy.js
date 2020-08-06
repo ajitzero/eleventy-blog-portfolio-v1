@@ -68,6 +68,16 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
 
+  // Custom Transform for adding `loading="lazy"` attribute to images
+  eleventyConfig.addTransform("addNativeLazyLoading", (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      original = /<img/g;
+      newText = `<img loading="lazy"`
+      content = content.replace(original, newText);
+    }
+    return content;
+  });
+
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
