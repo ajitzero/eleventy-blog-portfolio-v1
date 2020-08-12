@@ -5,6 +5,13 @@ layout: page
 {{ content | safe }}
 </article>
 
+<div class="author-box">
+  <span>
+    Written or otherwise collected by <a href="{{ '/about/' | url }}">{{ metadata.author.name }}</a>.
+  </span>
+  {% include "social-icons.njk" %}
+</div>
+
 <ul class="post-footer">
   {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
   {%- if previousPost %}<li class="prev">

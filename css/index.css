@@ -399,28 +399,7 @@ a.btn.btn-brand:hover svg.icon-right{
     font-size: clamp(1.125rem, 1rem + 2vw, 44px); /* necessary duplicate */
   }
 }
-.hero-bio > * {
-  display: inline;
-}
-@media (min-width: 960px) {
-  header {
-    background-color: var(--hero-bg);
-    padding: 3rem;
-  }
-  header.header-home {
-    padding: 4rem 3rem 0;
-  }
-  .grid-container {
-    grid-template-areas: "hero-bio hero-hi" "hero-nav cta" ". hire-dot";
-    grid-template-columns: 70% 30%;
-  }
-  .hero-bio {
-    padding-right: 20px;
-  }
-  .hero-bio > * {
-    display: block;
-  }
-}
+.hero-bio > * { display: inline; }
 .hero-hi {
   font-size: 18px;
   grid-area: hero-hi;
@@ -430,12 +409,8 @@ a.btn.btn-brand:hover svg.icon-right{
 .hero-hi p:last-child {
   margin-bottom: 40px;
 }
-.cta {
-  grid-area: cta;
-}
-.hire-dot {
-  grid-area: hire-dot;
-}
+.cta { grid-area: cta; }
+.hire-dot { grid-area: hire-dot; }
 .hire-me {
   display: flex;
   font-family: var(--sans-serif);
@@ -466,31 +441,48 @@ a.btn.btn-brand:hover svg.icon-right{
   justify-content: space-between;
   align-items: center;
 }
-.logo-name {
-  font-size: 28px;
-}
+.logo-name { font-size: 28px; }
 .top-nav.not-home {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 @media (min-width: 960px) {
-  .hero-hi {
-    margin-top: 0;
+  header {
+    background-color: var(--hero-bg);
+    padding: 3rem;
   }
+  header.header-home { padding: 4rem 3rem 0; }
+  .grid-container {
+    grid-template-areas: "hero-bio hero-hi" "hero-nav cta" ". hire-dot";
+    grid-template-columns: 70% 30%;
+  }
+  .hero-bio { padding-right: 20px; }
+  .hero-bio > * { display: block; }
+  .hero-hi { margin-top: 0; }
   .top-nav {
     flex-direction: row;
     margin-top: 0;
   }
-  .top-nav.not-home {
-    gap: 40px;
-  }
-  .logo-name {
-    font-size: 22px;
-  }
+  .top-nav.not-home { gap: 40px; }
+  .logo-name { font-size: 22px; }
 }
 
 /* Pre-Footer ****************************************************************/
+.author-box {
+  align-items: center;
+  background: var(--hero-bg);
+  border-radius: 6px;
+  border: 1px dashed #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6rem 0 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+.author-box > span { margin-right: 1rem; }
 .post-footer {
   align-items: stretch;
   column-gap: 10px;
@@ -535,9 +527,8 @@ a.btn.btn-brand:hover svg.icon-right{
   font-size: 16px;
 }
 @media (min-width: 760px) {
-  .post-footer {
-    flex-direction: row;
-  }
+  .author-box { flex-direction: row; }
+  .post-footer { flex-direction: row; }
 }
 
 /* Footer ********************************************************************/
