@@ -19,11 +19,9 @@
   </li>
   <li>
     <a
-      href="https://github.com/{{ metadata.author.github }}"
-      rel="noopener noreferrer"
-      target="_blank"
-      title="GitHub: Open-source projects &amp; contributions">
-      {{ "/svg/github.svg" | svgContents("social-icon") | safe }}
+      href="mailto:{{ metadata.author.email }}"
+      title="Email: Enough said">
+      {{ "/svg/mail.svg" | svgContents("social-icon") | safe }}
     </a>
   </li>
 </ul>
