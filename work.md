@@ -11,6 +11,7 @@ eleventyNavigation:
 
 ### Previously
 
-- Development Intern @ [Keka HR](https://www.keka.com)
+- Development Intern @ [Keka HR](https://www.keka.com) (May 6, 2019 - March 20, 2020)
 - Freelancing @ Fountane Labs
 - Fullstack Web Developer @ Lelbi Group
+- TEDxYouth@VarunBeach, Visakhapatnam
