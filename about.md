@@ -13,6 +13,8 @@ Hi! I’m a "fullstack" software engineer (amongst other titles and roles) curre
 >
 > ✉️ Contact me via [Email](mailto:{{ metadata.author.email }}) or [Twitter DM](https://twitter.com/{{ metadata.author.twitter }}).
 
+You can have a look at some of my projects [here](/work/).
+
 ## My quirks
 
 I am passionate about design – whether it is about the user experience, the interface or the architecture.
@@ -38,6 +40,6 @@ Have a question regarding Web Dev stuff or just development in general? Feel fre
 
 When I take a break from coding and designing, I enjoy reading mystery novels, manga, light novels, fanfiction and comics.
 
-If I have a lot of time at hand then I either end up working on another side-project 👀 or play games on [Steam](https://steamcommunity.com/id/{{ metadata.author.twitter }}/).
+If I have a lot of time at hand then I either end up working on another side-project 👀 or play games on [Steam](https://steamcommunity.com/id/ajitzero/).
 
 On almost every website out there, my username is `@{{ metadata.author.twitter }}`. Feel free to stalk me 🔍
