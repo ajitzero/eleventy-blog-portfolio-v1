@@ -5,11 +5,14 @@ layout: page
 {{ content | safe }}
 </article>
 
-<div class="author-box">
-  <span>
-    Written or otherwise collected by <a href="{{ '/about/' | url }}">{{ metadata.author.name }}</a>.
-  </span>
-  {% include "social-icons.njk" %}
+<div class="post-footer-tags">
+  Filed under:
+  {% for tag in tags %}
+      {%- if collections.tagList.indexOf(tag) != -1 -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
 </div>
 
 <ul class="post-footer">
