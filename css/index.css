@@ -256,17 +256,21 @@ main .postlist-link {
   display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
-  font-size: 0.625em; /* 10px /16 */
-  padding: 2px 4px;
+  font-size: 0.6em; /* 10px /16 */
+  letter-spacing: .5px;
+  padding: 3px 6px;
   margin-left: 0.8em; /* 8px /10 */
-  background-color: lightblue;
-  color: darkblue;
+  background-color: #444;
+  color: #eee;
   border-radius: 6px; /* 3px /12 */
   text-decoration: none;
 }
+.post-tag:hover {
+  background-color: #222;
+}
 a[href].post-tag,
 a[href].post-tag:visited {
-  color: darkblue;
+  color: #eee;
 }
 
 /* Warning */
