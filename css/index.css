@@ -184,6 +184,7 @@ ul.social-icons > li:not(:last-child) {
   .geo-line {
     width: 100%;
     max-width: 100px;
+    margin: 0 20px;
     height: 2px;
     background: var(--black);
     border-radius: 2px;
