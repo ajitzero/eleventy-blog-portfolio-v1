@@ -7,10 +7,11 @@ eleventyNavigation:
   order: 2
 ---
 
-> I am currently available for full-time roles in web development.
+> I am currently **not** available for freelance projects and consultations.
 
 ### Previously
 
+- Developer @ [Musicspace](https://musicspace.io) (August 25, 2020 - December 17, 2020)
 - Development Intern @ [Keka HR](https://www.keka.com) (May 6, 2019 - March 20, 2020)
 - Freelancing @ Fountane Labs
 - Fullstack Web Developer @ Lelbi Group

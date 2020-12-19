@@ -21,7 +21,7 @@ eleventyNavigation:
 
 ### Software
 - **Editors:**
-  - VSCode for Web & Flutter, as a sort of IDE.
+  - VSCode, as a sort of IDE.
   - Sublime Text 3 for competitive programming or small edits.
   - Vim (!) for short & sweet edits.
 - **Terminal:** iTerm2 with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh).
@@ -31,7 +31,7 @@ eleventyNavigation:
   - Winter is Coming: [VS Code](https://github.com/johnpapa/vscode-winteriscoming)
 - **Font:** [Fira Code](https://github.com/tonsky/FiraCode) with ligatures enabled, of course.
 - **Browsers:**
-  - Primary: Brave / Safari.
+  - Primary: Brave, Safari.
   - Secondary: Firefox, Opera.
   - Testing: Chrome, Edge.
 - **Designing:** Adobe XD, Figma, Krita.
@@ -41,7 +41,7 @@ eleventyNavigation:
   - Pocket, for hoarding & occasionally reading articles.
   - Amazon Kindle, for reading novels. Also, for hoarding.
   - Procreate (iPad only), for casual drawing.
-- Gaming: [Steam](https://steamcommunity.com/id/ajitzero/).
+- **Gaming:** [Steam](https://steamcommunity.com/id/ajitzero/).
 
 ## Bonus: `neofetch`
 ![hey]({{ '/img/uses-neofetch.png' | url }})

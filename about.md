@@ -9,12 +9,6 @@ eleventyNavigation:
 
 Hi! I’m a "fullstack" software engineer (amongst other titles and roles) currently based in Goa, India focussing on building and designing friction-less digital products. I write my thoughts, tips and insights on software engineering here on my [blog](/blog/).
 
-> I am currently available for **full-time** work opportunities for all things Web!
->
-> ✉️ Contact me via [Email](mailto:{{ metadata.author.email }}) or [Twitter DM](https://twitter.com/{{ metadata.author.twitter }}).
-
-You can have a look at some of my projects [here](/work/).
-
 ## My quirks
 
 I am passionate about design – whether it is about the user experience, the interface or the architecture.

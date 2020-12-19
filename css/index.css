@@ -67,7 +67,8 @@ article img {
 article pre {
   border-radius: 6px;
 }
-article code {
+article pre code,
+article p code {
   font-size: 1.1rem;
 }
 table {
@@ -246,7 +247,7 @@ svg.social-icon {
   font-weight: var(--font-weight-bold-serif);
 }
 main .postlist-link {
-  font-size: 1.1875em; /* 19px /16 */
+  font-size: 1.25rem; /* 19px /16 */
   font-weight: var(--font-weight-bold-serif);
 }
 
