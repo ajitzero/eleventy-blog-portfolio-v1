@@ -64,6 +64,12 @@ main :first-child {
 article img {
   width: 100%;
 }
+article pre {
+  border-radius: 6px;
+}
+article code {
+  font-size: 1.1rem;
+}
 table {
   margin: 1em 0;
 }
@@ -302,12 +308,14 @@ a[href].direct-link:focus:visited,
 }
 .hero h1 {
   margin: 1rem 0 0;
+  word-break: break-all;
 }
-.hero h3 {
+.hero span {
   font-size: 22px;
   font-style: italic;
   font-weight: 400;
   margin: 1rem 0;
+  display: block;
 }
 header {
   background-color: var(--hero-bg);
@@ -400,7 +408,10 @@ a.btn.btn-brand:hover svg.icon-right{
   margin-bottom: 40px;
 }
 .cta { grid-area: cta; }
-.hire-dot { grid-area: hire-dot; }
+.hire-dot {
+  grid-area: hire-dot;
+  min-height: 20px;
+}
 .hire-me {
   display: flex;
   font-family: var(--sans-serif);
