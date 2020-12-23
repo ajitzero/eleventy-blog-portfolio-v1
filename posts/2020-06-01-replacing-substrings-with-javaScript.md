@@ -55,4 +55,5 @@ console.log(newPhrase);
 
 Readability improves with a simple addition of three characters.
 
-No support for IE11 though. Naturally.
+No support for IE11 though. [Naturally](https://caniuse.com/?search=replaceAll "Can I Use for replaceAll").
+
