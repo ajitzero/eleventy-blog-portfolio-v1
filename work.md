@@ -7,6 +7,10 @@ eleventyNavigation:
   order: 2
 ---
 
+### Currently
+
+- Embedded Software Engineer 1 @ [Fortinet](https://fortinet.com)
+
 > I am currently **not** available for freelance projects and consultations.
 
 ### Previously
@@ -16,3 +20,4 @@ eleventyNavigation:
 - Freelancing @ Fountane Labs
 - Fullstack Web Developer @ Lelbi Group
 - TEDxYouth@VarunBeach, Visakhapatnam
+

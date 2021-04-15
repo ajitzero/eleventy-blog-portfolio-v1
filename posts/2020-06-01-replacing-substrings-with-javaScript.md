@@ -4,7 +4,6 @@ description: Dealing with a minor, unintuitive feature
 date: 2020-06-01
 isHighlight: true
 tags:
-- notes
 - javascript
 ---
 
