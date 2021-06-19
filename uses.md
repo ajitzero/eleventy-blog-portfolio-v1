@@ -14,9 +14,9 @@ eleventyNavigation:
 - **Computer:** 2018 MacBook Pro 15" - i7 16GB RAM, Radeon Pro 555X 4GB.
   > Switched from Windows, to Ubuntu, to MacOS. Still Windows for gaming.
 - **Phone:** Moto One Power.
-- **Tablet:** 2019 iPad Mini 64GB.
+- **Tablet:** iPad Mini 5 (2019) 64GB.
 - 🆕 **Secondary Monitor:** [LG 32GK650F-B](https://www.rtings.com/monitor/reviews/lg/32gk650f-b). 1440p, 144Hz.
-- **Keyboard:** Logitech K120, nothing fancy.
+- 🆕 **Keyboard:** Ducky One 2SF, Black, Year of the Rat, with Cherry MX Speed Silver switches.
 - **Mouse:** RedGear Thor, previously using RedGear Leviathon.
 - **Game Controller:** RedGear Elite Wireless, for Windows only.
 
@@ -33,8 +33,8 @@ eleventyNavigation:
 - **Font:** [Fira Code](https://github.com/tonsky/FiraCode) with ligatures enabled, of course.
 - **Browsers:**
   - Primary: Brave, Safari.
-  - Secondary: Firefox, Opera.
-  - Testing: Chrome, Edge.
+  - Secondary: Firefox, Edge.
+  - Testing: Chrome Dev.
 - **Designing:** Adobe XD.
 - **Apps:**
   - ~~LastPass~~ Dashlane (password manager) + Twilio Authy (2FA).
@@ -42,7 +42,6 @@ eleventyNavigation:
   - Pocket, for hoarding & occasionally reading articles.
   - Amazon Kindle, for reading novels. Also, for hoarding.
   - Procreate (iPad), for casual drawing.
-- **Gaming:** [Steam](https://steamcommunity.com/id/ajitzero/).
 
 ## Bonus: `neofetch`
 ![Screenshot of neofetch details]({{ '/img/uses-neofetch.png' | url }})
