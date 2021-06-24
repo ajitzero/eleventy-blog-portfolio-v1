@@ -1,7 +1,7 @@
 {
   "title": "Ajit Panigrahi's Portfolio & Blog",
   "url": "https://ajitpanigrahi.com",
-  "available_for_hire": false,
+  "available_for_hire": true,
   "theme": {
     "color": "#000000"
   },
