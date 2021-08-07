@@ -32,8 +32,6 @@ Have a question regarding Web Dev stuff or just development in general? Feel fre
 
 ## Beyond
 
-When I take a break from coding and designing, I enjoy reading mystery novels, manga, light novels, fanfiction and comics.
-
-If I have a lot of time at hand then I either end up working on another side-project 👀 or play games on [Steam](https://steamcommunity.com/id/ajitzero/).
+When I take a break from coding and designing, I enjoy reading mystery novels, manga, light novels, fanfiction and comics. I also fancy writing but I'm not very good at it.
 
 On almost every website out there, my username is `@{{ metadata.author.twitter }}`. Feel free to stalk me 🔍
