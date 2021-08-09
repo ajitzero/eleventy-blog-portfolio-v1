@@ -15,8 +15,9 @@ eleventyNavigation:
   > Switched from Windows, to Ubuntu, to MacOS. Still Windows for gaming.
 - **Phone:** Moto One Power.
 - **Tablet:** iPad Mini 5 (2019) 64GB.
-- 🆕 **Secondary Monitor:** [LG 32GK650F-B](https://www.rtings.com/monitor/reviews/lg/32gk650f-b). 1440p, 144Hz.
+- 🆕 **External Monitor:** [LG 32GK650F-B](https://www.rtings.com/monitor/reviews/lg/32gk650f-b). 1440p, 144Hz.
 - 🆕 **Keyboard:** Ducky One 2SF, Black, Year of the Rat, with Cherry MX Speed Silver switches.
+- 🆕 **Audio:** Jabra Elite Active 65t. First go with <abbr title="True Wireless">TWS</abbr>.
 - **Mouse:** RedGear Thor, previously using RedGear Leviathon.
 - **Game Controller:** RedGear Elite Wireless, for Windows only.
 
