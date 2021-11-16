@@ -2,7 +2,7 @@
 > 
 > I like how this redesign turned out, but I feel I didn't "design" anything quite how I wanted to. The core requirements from when I had rewritte this with Eleventy from Jekyll, didn't really serve their purposes well. After all, we all have been going through some unprecedented times.
 > 
-> A ton of my blog posts from my first iteration never made it to this iteration because of me searching for some level of perfection in my writing, something that I should have known against pursueing. Maybe whatever I wrote could have helped someone, yet I ended up deleting most of it. I have just 3 posts in this iterations: a personal note, a joke, and a reference. I can do better, is what I would like to believe.
+> A ton of my blog posts from my first iteration never made it to this iteration because of me searching for some level of perfection in my writing, something that I should have known against pursuing. Maybe whatever I wrote could have helped someone, yet I ended up deleting most of it. I have just 3 posts in this iterations: a personal note, a joke, and a reference. I can do better, is what I would like to believe.
 > 
 > I am already spending more time rethinking what I'm writing just here and now, but then again, who knows, someone may relate with this too.
 
